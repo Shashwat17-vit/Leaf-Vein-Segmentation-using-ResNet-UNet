@@ -61,9 +61,9 @@ Below are examples of model predictions vs. ground truth:
 
 | Input Image | Model Prediction |  Ground Truth |
 
-| ![Input](Report_Images/Visual_Evaluation.png) |
+![Input](Report_Images/Visual_Evaluation.png) 
 
-The model successfully segments infected regions, demonstrating its utility in agricultural disease detection.
+The model successfully segments infected regions, demonstrating its utility in plant phenotyping research.
 
 ---
 
@@ -72,11 +72,9 @@ The model successfully segments infected regions, demonstrating its utility in a
 This project showcased the power of **deep learning in agricultural disease detection**. By leveraging **ResNet-based U-Net and augmentation techniques**, we achieved **high segmentation accuracy** even with a limited dataset.
 
 ### Future Improvements:
-- **Train on a larger dataset** for better generalization.
+- **Train on a larger dataset** for better generalization. Utilizing transer learning
 - **Implement transformer-based segmentation models** like SegFormer for potential performance gains.
 - **Deploy as a real-time mobile application** for farmers to detect infections on-site.
-
-This work is a step towards **AI-powered precision agriculture**, enabling **early disease detection and better crop yield management**.
 
 ---
 
