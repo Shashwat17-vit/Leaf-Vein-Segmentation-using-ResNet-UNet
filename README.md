@@ -21,7 +21,7 @@ To improve model performance, we applied several preprocessing techniques:
 
 **Example Preprocessed Image:**
 
-![Preprocessed Tomato Leaf](path/to/image)
+![Preprocessed Tomato Leaf](Report_Images/Preprocessed_image.png)
 
 ---
 
@@ -45,7 +45,7 @@ Since the dataset was small, we implemented augmentation techniques like:
 
 **Training Performance Over Epochs:**
 
-![Training vs. Validation Accuracy](path/to/image)
+![Training vs. Validation Accuracy](Report_Images/Evaluations.png)
 
 ---
 
@@ -59,9 +59,9 @@ Our final model achieved the following:
 ### Visualizing Predictions
 Below are examples of model predictions vs. ground truth:
 
-| Input Image | Ground Truth | Model Prediction |
-|------------|-------------|------------------|
-| ![Input](path/to/image) | ![Mask](path/to/image) | ![Prediction](path/to/image) |
+| Input Image | Model Prediction |  Ground Truth |
+
+| ![Input](Report_Images/Visual_Evaluation.png) |
 
 The model successfully segments infected regions, demonstrating its utility in agricultural disease detection.
 
